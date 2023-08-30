@@ -1,7 +1,7 @@
 # Portofolio Web Developer 🚀
 
 <div align="center">
-  <img src="stiker_web_dev.png" alt="Stiker Web Developer" width="200">
+  <img src="https://github.com/fifovalle/BELAJAR-WEB-DEVELOPER/assets/90078068/f75c010d-e605-4e55-896d-e6fa2bced68c" alt="Stiker Web Developer" width="200">
 </div>
 
 Selamat datang di **Portofolio Web Developer** milik saya! Di sini, saya membagikan perjalanan dan hasil pembelajaran saya dalam dunia pengembangan web. Dari merancang tampilan hingga menghidupkan ide menjadi kode, saya menjelajahi berbagai teknologi termasuk HTML, CSS, JavaScript, SASS, React, Bootstrap, dan Next.js.
