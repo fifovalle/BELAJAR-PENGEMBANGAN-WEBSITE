@@ -1,0 +1,11 @@
+img {
+    width: 200px;
+    margin: auto;
+    display: block;
+    filter: blur(10px);
+    transition: 1s;
+}
+
+img:hover {
+    filter: none;
+}

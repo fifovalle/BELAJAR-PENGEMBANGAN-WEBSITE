@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: #666565;
+    text-align: center;
+}
+
+.wadah {
+    width: 600px;
+    margin: auto;
+    border: 5px solid white;
+    overflow: auto;
+}
+
+.tam {
+    width: 200px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.tam:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+@keyframes hilang {
+    to {
+        opacity: 1;
+    }
+}
+
+.hilang {
+    opacity: 0;
+    animation: hilang .5s forwards;
+}
+
+.aktif {
+    opacity: .5;
+}

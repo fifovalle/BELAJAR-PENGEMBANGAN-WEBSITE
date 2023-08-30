@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(red, black);
+    margin: auto;
+    transition: 100s;
+}
+
+div:hover {
+    transform: rotate(1000000deg);
+}

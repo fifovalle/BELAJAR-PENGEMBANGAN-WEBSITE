@@ -1,0 +1,21 @@
+body {
+    background-image: url('bg.png');
+}
+
+.satu {
+    width: 500px;
+    height: 500px;
+    background-color: salmon;
+    position: relative;
+    opacity: .5;
+}
+
+.dua {
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    opacity: .5;
+}

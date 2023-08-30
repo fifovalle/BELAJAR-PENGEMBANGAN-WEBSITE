@@ -1,0 +1,30 @@
+.wadah {
+    width: 900px;
+    border: 5px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+
+.kotak1 {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    float: right;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.kotak2 {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    float: right;
+}
+
+.kotak3 {
+    width: 200px;
+    height: 400px;
+    background-color: lightgrey;
+    float: right;
+}

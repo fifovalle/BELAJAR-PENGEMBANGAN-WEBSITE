@@ -1,0 +1,7 @@
+img {
+    width: 200px;
+    margin: auto;
+    display: block;
+    filter: grayscale(100%);
+    --webkit-filter: grayscale(100%);
+}

@@ -1,0 +1,29 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MasukPage from "./pages/masuk.jsx";
+import DaftarPage from "./pages/daftar.jsx";
+import HalamanEror from "./pages/404.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Halo Dunia</div>,
+    errorElement: <HalamanEror />,
+  },
+  {
+    path: "/masuk",
+    element: <MasukPage />,
+  },
+  {
+    path: "/daftar",
+    element: <DaftarPage />,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

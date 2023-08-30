@@ -1,0 +1,28 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.kotak1 {
+    background-color: violet;
+}
+
+.kotak2 {
+    background-color: lightgreen;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.kotak3 {
+    background-color: black;
+}
+
+.wadah {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    margin: auto;
+    position: relative;
+}

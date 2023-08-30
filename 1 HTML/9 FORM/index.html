@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <title>FORM</title>
+</head>
+
+<body>
+    <form>
+        <label for="nama_pengguna">Nama Pengguna : </label>
+        <input type="text" id="nama_pengguna">
+        <br>
+        <label for="kata_sandi">Kata Sandi : </label>
+        <input type="password" id="kata_sandi">
+        <br>
+        <input type="radio" name="jk" id="pria"><label for="pria">Pria</label>
+        <input type="radio" name="jk" id="wanita"><label for="wanita">Wanita</label>
+        <br>
+        <input type="checkbox" id="lagu"><label for="lagu">lagu</label>
+        <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+        <input type="checkbox" id="parkur"><label for="parkur">parkur</label>
+        <br>
+        <label for="kota">Kombo Box</label>
+        <select id="kota">
+            <option>Bandung</option>
+            <option>jakarta</option>
+        </select>
+        <br>
+        <label for="teksarea">Teks Area</label>
+        <textarea id="teksarea"></textarea>
+        <br>
+        <button type="submit">Kirim</button>
+        <button type="reset">Riset</button>
+    </form>
+    <hr>
+    <br><br>
+    <form>
+        <table align="center">
+            <tr align="right">
+                <td>
+                    <label for="nama_pengguna">Nama Pengguna : </label>
+                </td>
+                <td>
+                    <input type="text" id="nama_pengguna">
+                </td>
+            </tr>
+            <tr align="right">
+                <td>
+                    <label for="nama_pengguna">Kata Sandi : </label>
+                </td>
+                <td>
+                    <input type="text" id="nama_pengguna">
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <label for="pria">Pria</label><input type="radio" name="jk" id="pria">
+                    <label for="wanita">Wanita</label><input type="radio" name="jk" id="wanita">
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <label for="lagu">lagu</label><input type="checkbox" id="lagu">
+                    <label for="ngoding">ngoding</label><input type="checkbox" id="ngoding">
+                    <label for="parkur">parkur</label><input type="checkbox" id="parkur">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="kota">Kombo Box :</label>
+                </td>
+                <td>
+                    <select id="kota">
+                        <option>Bandung</option>
+                        <option>jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="teksarea">Teks Area :</label>
+                </td>
+                <td>
+                    <textarea id="teksarea"></textarea>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

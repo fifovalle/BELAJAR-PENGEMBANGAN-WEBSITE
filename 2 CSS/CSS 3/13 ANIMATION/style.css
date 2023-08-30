@@ -1,0 +1,26 @@
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: saddlebrown;
+    transition: 2s ease all;
+}
+
+.kotak:hover {
+    animation: kotak1 2s ease 2 alternate;
+}
+
+@keyframes kotak1 {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 200px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}

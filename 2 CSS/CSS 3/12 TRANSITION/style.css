@@ -1,0 +1,52 @@
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+.kotak1 {
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s ease;
+}
+
+.kotak2 {
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s ease-in;
+}
+
+.kotak3 {
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s ease-out;
+}
+
+.kotak4 {
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s linear;
+}
+
+.kotak5 {
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+
+.wadah:hover .kotak {
+    transform: rotate(720deg);
+    margin-left: 600px;
+    background-color: red;
+}

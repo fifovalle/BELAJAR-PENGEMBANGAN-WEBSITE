@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "font1";
+    src: url('DangerNightPersonalUse-owdl4.otf') format('truetype');
+}
+
+h1 {
+    font-family: "font1";
+}

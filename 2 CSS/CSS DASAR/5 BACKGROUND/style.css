@@ -1,0 +1,6 @@
+body {
+    background-color: lightblue;
+    background-image: url(IMAGE/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: 300px;
+}

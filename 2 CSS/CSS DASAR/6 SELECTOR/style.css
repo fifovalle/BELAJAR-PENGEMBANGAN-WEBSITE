@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    color: lightblue;
+}
+
+ul li a {
+    color: gainsboro;
+}
+
+ol li a {
+    color: green;
+}
+
+#p1 {
+    color: orange;
+}
+
+.tebal {
+    font-weight: bold;
+}
+
+.p2 {
+    color: aqua;
+}
+
+p.tebal {
+    font-size: 30px;
+}

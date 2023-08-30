@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.kotak1 {
+    background-color: violet;
+}
+
+.kotak2 {
+    background-color: lightgreen;
+    position: relative;
+    top: 230px;
+}
+
+.kotak3 {
+    background-color: black;
+}

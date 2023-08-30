@@ -1,0 +1,28 @@
+h1 {
+    color: skyblue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #003268;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+
+h3 {
+    color: rgb(52, 9, 190);
+    text-decoration: line-through;
+    letter-spacing: 5px;
+}
+
+p {
+    text-align: center;
+    text-indent: 100px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+}

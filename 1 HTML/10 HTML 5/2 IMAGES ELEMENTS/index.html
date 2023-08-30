@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Elements</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.125em;
+            line-height: 1.6;
+            color: #333;
+            padding: 2em;
+        }
+
+        .pahlawan {
+            display: grid;
+            grid: 2em;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media(min-width: 960px) {
+            .pahlawan {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pahlawan">
+        <div class="teks_pahlawan">
+            <h1>Halo Dunia</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, autem maiores accusantium quidem eos
+                totam cum corrupti suscipit dolore officiis nam at architecto consequatur? Cum assumenda temporibus vel
+                id autem accusamus iusto! Veritatis sit, repellendus dolores nesciunt minima possimus ratione est
+                expedita asperiores aliquid laboriosam perspiciatis sapiente, fugit enim ut.
+            </p>
+        </div>
+        <picture>
+            <source media="(min-width: 960px)" srcset="IMG/3.jpg" sizes="50vw">
+            <source media="(min-width: 600px)" srcset="IMG/2.jpg">
+            <img src="IMG//1.jpg" alt="kucing mem">
+        </picture>
+    </div>
+
+</body>
+
+</html>

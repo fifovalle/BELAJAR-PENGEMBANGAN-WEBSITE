@@ -1,0 +1,111 @@
+// IF
+@mixin foto_profil($ukuran, $bulat: false) {
+  width: $ukuran;
+  height: $ukuran;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba($color: #000, $alpha: 0.3);
+
+  @if $bulat {
+    border-radius: 50%;
+  }
+}
+
+.profil_kotak {
+  @include foto_profil(200px, $bulat: false);
+}
+
+.profil_bulat {
+  @include foto_profil(80px, $bulat: true);
+}
+
+// ELSE
+$bg_cerah: #eee;
+$teks_cerah: #333;
+$bg_gelap: #999;
+$teks_gelap: #ddd;
+
+@mixin mode_warna($mode_cerah: true) {
+  @if $mode_cerah {
+    background-color: $bg_cerah;
+    color: $teks_cerah;
+  } @else {
+    background-color: $bg_gelap;
+    color: $teks_gelap;
+  }
+}
+
+body {
+  @include mode_warna($mode_cerah: false);
+}
+
+// else if
+@mixin segitiga($ukuran, $warna, $direksi) {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: $ukuran;
+
+  @if $direksi == up {
+    border-bottom-color: $warna;
+  } @else if $direksi == right {
+    border-left-color: $warna;
+  } @else if $direksi == down {
+    border-top-color: $warna;
+  } @else {
+    border-right-color: $warna;
+  }
+}
+
+.kanan {
+  @include segitiga(2em, black, right);
+}
+
+// FOR
+// $warna: green;
+// .gradien {
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   @for $i from 1 to 11 {
+//     li:nth-child(#{$i}) {
+//       padding: 4px;
+//       background-color: lighten($warna, $i * 4%);
+//     }
+//   }
+// }
+
+// WHILE
+$warna: green;
+.gradien {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  $i: 1;
+  @while $i < 11 {
+    li:nth-child(#{$i}) {
+      padding: 4px;
+      background-color: lighten($warna, $i * 4%);
+    }
+    $i: $i + 1;
+  }
+}
+
+// EACH
+$warna_sosial: (
+  ig: #ff0000,
+  github: #000,
+  p: #8c8686,
+);
+
+.sosial {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  @each $sosial, $warna in $warna_sosial {
+    .#{$sosial} {
+      color: $warna;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+// .utama {
+//   background-color: lightblue;
+
+//   .tanjuk {
+//     font-size: 2em;
+//   }
+
+//   .paragraf {
+//     font-size: 1.4em;
+//   }
+// }
+
+// .utama,
+// footer {
+//   h1,
+//   p {
+//     letter-spacing: 1px;
+//   }
+// }
+
+.utama {
+  .wadah & {
+    background-color: lightblue;
+  }
+  .tanjuk {
+    font-size: 2em;
+  }
+  &:hover {
+    background-color: salmon;
+  }
+}

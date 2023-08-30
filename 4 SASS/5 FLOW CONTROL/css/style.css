@@ -1,0 +1,92 @@
+.profil_kotak {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.profil_bulat {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+body {
+  background-color: #999;
+  color: #ddd;
+}
+
+.kanan {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2em;
+  border-left-color: black;
+}
+
+.gradien {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradien li:nth-child(1) {
+  padding: 4px;
+  background-color: #009400;
+}
+.gradien li:nth-child(2) {
+  padding: 4px;
+  background-color: #00a900;
+}
+.gradien li:nth-child(3) {
+  padding: 4px;
+  background-color: #00bd00;
+}
+.gradien li:nth-child(4) {
+  padding: 4px;
+  background-color: #00d200;
+}
+.gradien li:nth-child(5) {
+  padding: 4px;
+  background-color: #00e600;
+}
+.gradien li:nth-child(6) {
+  padding: 4px;
+  background-color: #00fa00;
+}
+.gradien li:nth-child(7) {
+  padding: 4px;
+  background-color: #10ff10;
+}
+.gradien li:nth-child(8) {
+  padding: 4px;
+  background-color: #24ff24;
+}
+.gradien li:nth-child(9) {
+  padding: 4px;
+  background-color: #39ff39;
+}
+.gradien li:nth-child(10) {
+  padding: 4px;
+  background-color: #4dff4d;
+}
+
+.sosial {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.sosial .ig {
+  color: #ff0000;
+}
+.sosial .github {
+  color: #000;
+}
+.sosial .p {
+  color: #8c8686;
+}
+
+/*# sourceMappingURL=style.css.map */

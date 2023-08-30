@@ -1,0 +1,15 @@
+@mixin list-yang-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+
+@mixin kotak-flex($direksi: row, $jarak: center) {
+  display: flex;
+  justify-content: $jarak;
+  align-items: center;
+  flex-direction: $direksi;
+}

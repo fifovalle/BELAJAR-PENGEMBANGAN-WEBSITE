@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 600px;
+            padding: 20px;
+        }
+
+        form div {
+            margin: 10px;
+        }
+
+        label {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post">
+        <div>
+            <label for="nama">Masukan Nama:</label>
+            <input type="text" name="nama" id="nama" required>
+        </div>
+        <div>
+            <button type="submit">Kirim</button>
+        </div>
+    </form>
+</body>
+
+</html>

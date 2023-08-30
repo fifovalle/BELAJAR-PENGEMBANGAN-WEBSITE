@@ -1,0 +1,219 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ============STYLING============ */
+body {
+    font: 16/28px arial, sans-serif;
+    color: #333;
+    background-image: url(IMAGE/bg.png);
+}
+
+.wadah {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.kepala {
+    padding: 20px;
+    padding: 10px;
+}
+
+.kepala .judul {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kepala ul li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.kepala a {
+    color: salmon;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.kepala a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.pahlawan {
+    height: 350px;
+    background-image: url(IMAGE/pahlawan.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.konten {
+    padding: 20px;
+}
+
+.konten h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.konten .penulis {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.konten .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.konten .penulis a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.konten p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.kaki {
+    background-color: #333;
+    padding: 10px;
+}
+
+.kaki .hakcipta {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}

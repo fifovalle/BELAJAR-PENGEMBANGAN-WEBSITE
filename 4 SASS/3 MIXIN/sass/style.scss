@@ -1,0 +1,52 @@
+@mixin list-yang-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+
+.tajuk ul {
+  @include list-yang-inline();
+  li {
+    background-color: salmon;
+    padding: 0.8em;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.kaki ul {
+  @include list-yang-inline();
+  li {
+    padding: 0.3em;
+    background-color: black;
+    a {
+      color: white;
+    }
+  }
+}
+
+// Argument
+@mixin kotak-flex($direksi: row, $jarak: center) {
+  display: flex;
+  justify-content: $jarak;
+  align-items: center;
+  flex-direction: $direksi;
+}
+.wadah {
+  @include kotak-flex(row-reverse, space-around);
+  width: 600px;
+  height: 400px;
+  background-color: #eee;
+  .kotak {
+    width: 60px;
+    height: 60px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 60px;
+  }
+}

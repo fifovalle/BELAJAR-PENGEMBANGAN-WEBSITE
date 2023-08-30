@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.hijaumuda {
+    background-color: lightgreen;
+}
+
+.kotak {
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.merah {
+    background-color: red;
+}
+
+.hijau {
+    background-color: green;
+}
+
+.biru {
+    background-color: blue;
+}

@@ -1,0 +1,15 @@
+ul#daftar li {
+    color: green;
+}
+
+.pin {
+    color: red;
+}
+
+ul#makanan {
+    color: green;
+}
+
+ul#makanan li.fav {
+    color: red;
+}

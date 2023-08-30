@@ -1,0 +1,42 @@
+.halo:link {
+    color: orange;
+}
+
+.halo:hover {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.halo:active {
+    font-style: italic;
+}
+
+.halo:visited {
+    color: red;
+}
+
+li:first-child a {
+    color: red;
+}
+
+li:last-child a {
+    color: green;
+}
+
+/* TAMBAHKAN n UNTUK KELIPATAN +- UNTUK MULAINYA DARI MANA MISAL 3n-2 MAKA YANG AKTIF MULAI DARI 1 4 5 DAN + 1 JUGA SAMA TERSERAH ATAU MENGGUNAKAN EVEN DAN ODD UNTUK GANJIL GENAP*/
+li:nth-child(3) a {
+    color: blue;
+}
+
+li:nth-child(even) a:hover {
+    color: red
+}
+
+p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: blue;
+}

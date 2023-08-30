@@ -1,0 +1,275 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cf::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* ============STYLING============ */
+body {
+    font: 16/28px arial, sans-serif;
+    color: #333;
+    background-image: url(IMAGE/bg.png);
+}
+
+.baratas {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    background-color: lightskyblue;
+    border-bottom: 3px solid salmon;
+    z-index: 1;
+}
+
+.wadah {
+    width: 960px;
+    margin: 80px auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.ig {
+    width: 200px;
+    height: 200px;
+    background-image: url('IMAGE/IG.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -55px;
+    right: -10px;
+
+}
+
+.kepala {
+    padding: 20px;
+    padding: 10px;
+}
+
+.kepala .judul {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kepala ul li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.kepala a {
+    color: salmon;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.kepala a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.pahlawan {
+    height: 360px;
+    background-image: url(IMAGE/pahlawan.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.utama {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+}
+
+.utama h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.utama .penulis {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.utama .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.utama .penulis a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.utama p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.barsamping {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.barsamping h3 {
+    font-weight: bold;
+    color: #666;
+}
+
+.barsamping img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding: 10px;
+}
+
+.barsamping p {
+    font: 12px/18px arial;
+}
+
+.kaki {
+    background-color: #333;
+    padding: 10px;
+}
+
+.kaki .hakcipta {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}

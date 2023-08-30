@@ -1,0 +1,9 @@
+.wadah .utama {
+  background-color: lightblue;
+}
+.utama .tanjuk {
+  font-size: 2em;
+}
+.utama:hover {
+  background-color: salmon;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+h1,
+h2 {
+    background-color: green;
+}
+
+.utama {
+    background-color: green;
+    width: 600px;
+}
+
+.utama h2 {
+    background-color: pink;
+}
+
+.navigasi li {
+    display: inline;
+}
+
+.navigasi2 a {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.utama img {
+    display: none;
+}

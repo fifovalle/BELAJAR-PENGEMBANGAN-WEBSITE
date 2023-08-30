@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB STORAGE</title>
+</head>
+
+<body>
+    <h1 id="judul"></h1>
+    <button id="editButton">Edit Nama</button>
+    <button id="hapusButton">Hapus Nama</button>
+
+    <script>
+        const judul = document.getElementById("judul");
+        const editButton = document.getElementById("editButton");
+        const hapusButton = document.getElementById("hapusButton");
+
+        function updateNama() {
+            let nama = localStorage.getItem('Nama');
+            if (!nama) {
+                nama = prompt("Masukkan Nama Anda:");
+                localStorage.setItem('Nama', nama);
+            }
+            judul.textContent = `Halo ${nama}`;
+        }
+
+        updateNama();
+
+        editButton.addEventListener("click", () => {
+            const newNama = prompt("Edit Nama Anda:");
+            if (newNama !== null) {
+                localStorage.setItem('Nama', newNama);
+                updateNama();
+            }
+        });
+
+        hapusButton.addEventListener("click", () => {
+            localStorage.removeItem('Nama');
+            judul.textContent = "Nama dihapus.";
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+    margin: 30px auto;
+    box-shadow: inset 10px 10px 10px 10px rgba(28, 0, 105, 0.819), inset -10px -10px 10px 10px rgba(255, 0, 0, 0.811);
+}

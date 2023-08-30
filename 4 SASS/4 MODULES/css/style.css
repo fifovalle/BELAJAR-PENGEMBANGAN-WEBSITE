@@ -1,0 +1,51 @@
+.tajuk ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tajuk ul li {
+  display: inline-block;
+}
+.tajuk ul li {
+  background-color: salmon;
+  padding: 0.8em;
+}
+.tajuk ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.kaki ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.kaki ul li {
+  display: inline-block;
+}
+.kaki ul li {
+  padding: 0.3em;
+  background-color: black;
+}
+.kaki ul li a {
+  color: white;
+}
+
+.wadah {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: #eee;
+}
+.wadah .kotak {
+  width: 60px;
+  height: 60px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

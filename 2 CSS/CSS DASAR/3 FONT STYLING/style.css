@@ -1,0 +1,31 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 4em;
+}

@@ -1,0 +1,17 @@
+* {
+    border: 2px solid #dedede;
+    padding: 15px;
+    margin: 15px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 600px;
+    margin: 30px auto;
+    font-family: sans-serif;
+    color: #333;
+}

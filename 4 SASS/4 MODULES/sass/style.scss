@@ -1,0 +1,40 @@
+// @import "mix";
+
+@use "mix";
+
+.tajuk ul {
+  @include mix.list-yang-inline();
+  li {
+    background-color: salmon;
+    padding: 0.8em;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.kaki ul {
+  @include mix.list-yang-inline();
+  li {
+    padding: 0.3em;
+    background-color: black;
+    a {
+      color: white;
+    }
+  }
+}
+
+.wadah {
+  @include mix.kotak-flex(row-reverse, space-around);
+  width: 600px;
+  height: 400px;
+  background-color: #eee;
+  .kotak {
+    width: 60px;
+    height: 60px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 60px;
+  }
+}

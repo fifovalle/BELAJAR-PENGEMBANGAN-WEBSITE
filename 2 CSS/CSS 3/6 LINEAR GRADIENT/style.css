@@ -1,0 +1,20 @@
+.satu {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(red, black, salmon, blue);
+}
+
+.dua {
+    width: 600px;
+    height: 300px;
+    margin: 10px auto;
+    background: linear-gradient(45deg, red, black);
+}
+
+.tiga {
+    width: 600px;
+    height: 300px;
+    margin: 10px auto;
+    background: linear-gradient(45deg, red 65%, black 25%);
+}

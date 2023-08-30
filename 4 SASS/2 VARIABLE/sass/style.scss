@@ -1,0 +1,21 @@
+// $warna1: green;
+// $warna2: salmon;
+
+// body {
+//   $warna1: lightblue;
+//   background-color: $warna1;
+// }
+
+// h1 {
+//   color: $warna1;
+// }
+
+$pemberitahuan: (
+  "gagal": red,
+  "berhasil": green,
+  "hati hati": yellow,
+);
+
+h1 {
+  color: map-get($pemberitahuan, "gagal");
+}
