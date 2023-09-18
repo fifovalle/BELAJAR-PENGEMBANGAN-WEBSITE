@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#beralih:checked ~ label div.beralih-bulat {
+  @apply translate-x-3;
+}
