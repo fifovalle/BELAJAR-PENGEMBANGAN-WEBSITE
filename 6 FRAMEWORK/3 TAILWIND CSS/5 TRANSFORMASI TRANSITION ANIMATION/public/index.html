@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC UTILITY TAILWIND</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="dark:bg-slate-800 dark:text-slate-200">
+    <h1 class="text-8xl font-bold text-center my-10">BASIC UTILITY <span
+            class="bg-gradient-to-l from-black to-white text-transparent bg-clip-text">TAILWIND</span></h1>
+    <section class="mb-10 bg-gradient-to-r from-primary to-secondary">
+        <h2>Spacing</h2>
+        <div class="m-13">Margin</div>
+        <div class="p-13">Padding</div>
+    </section>
+    <section class="mb-10 bg-primary">
+        <h2>Sizing</h2>
+        <div class="w-32 h-32">Kotak 1</div>
+    </section>
+    <section class="mb-10 font-inter max-w-3xl mx-auto bg-secondary">
+        <h2 class="mb-2 text-4xl font-bold">Typography</h2>
+        <div class="mb-4 text-gray-500"><a href="#" class="text-gray-700 font-semibold">Naufal</a> 1 Januari 2023</div>
+        <p class="mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href="#"
+                class="underline font-semibold">Commodi</a> nulla
+            quod minus a,
+            consectetur quas
+            praesentium et eos molestias esse eius tempora magni illum architecto vel adipisci cum. Provident possimus,
+            omnis excepturi quidem alias, dolorum laboriosam nulla vitae accusantium delectus libero rem reiciendis
+            natus quaerat nihil tempora neque itaque? Suscipit!
+        </p>
+        <blockquote class="mb-4 italic font-thin text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam asperiores dignissimos officiis
+            consectetur praesentium, quae eligendi consequatur id nam.
+        </blockquote>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio nobis, voluptatum temporibus
+            numquam ipsam impedit modi quos porro quo expedita sapiente ut animi neque maiores rem quasi omnis eaque sit
+            dolor incidunt? Reiciendis consectetur a qui vero, enim tenetur repellat illum quos magnam! Voluptates qui
+            ipsum laboriosam commodi quis.
+        </p>
+    </section>
+
+    <div class="max-w-xl h-96 mx-auto mt-[42px] bg-[#000000] overflow-y-scroll bg-fixed"
+        style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+        <p class="p-5 text-2xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt impedit veritatis atque aut cum
+            reiciendis libero facere dolor, tempore dicta. A atque, inventore quaerat, soluta cupiditate labore delectus
+            illum nisi ducimus, eos veniam facilis sed molestias officiis? Odio totam esse explicabo nemo. Consequatur
+            nostrum veniam ipsa atque aperiam quibusdam nisi vel, possimus, temporibus itaque commodi. Perferendis
+            expedita velit vitae nihil, quaerat dicta ea nostrum recusandae aspernatur? Commodi perspiciatis repellat,
+            possimus, aperiam vitae hic impedit nisi perferendis rerum dolores porro esse et sunt est. Itaque officiis
+            porro quod consectetur dolores vitae architecto facere. Excepturi sit impedit reprehenderit sunt nostrum
+            aliquam veniam enim voluptatibus, ipsa nulla culpa voluptatem, adipisci temporibus consectetur! Dignissimos
+            id ducimus, mollitia perferendis non in amet officiis, est ratione fuga quas nam vel eius quos saepe nobis
+            iusto vero. Suscipit recusandae aliquam nam animi reiciendis! Repellat molestiae repudiandae dolore
+            perspiciatis nostrum libero est culpa placeat quos aliquid. Magni nostrum reprehenderit, incidunt a
+            doloribus minus, quod voluptatum distinctio porro nesciunt ad quibusdam placeat quidem quaerat consequuntur
+            nemo quos ducimus ex? Sequi iste molestiae magni optio nesciunt at aspernatur quam fugiat, voluptas expedita
+            repellat facere officiis, doloremque excepturi temporibus voluptate, necessitatibus omnis quisquam
+            voluptatem doloribus rem reiciendis distinctio eaque. Harum.
+        </p>
+    </div>
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-xl border-8  border-pink shadow-xl border-dotted overflow-hidden"
+        style="background-image: url(../src/img/1.jpg);">
+        <div class="w-full h-full bg-blue-300 mix-blend-multiply"></div>
+    </div>
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-xl border-8  border-pink shadow-xl border-dotted overflow-hidden flex"
+        style="background-image: url(../src/img/1.jpg);">
+        <div class="w-[200px] h-[200px] bg-white/30 m-auto backdrop-blur-md rounded-full"></div>
+    </div>
+
+    <hr class="my-20" />
+
+    <div class="flex justify-center">
+        <span class="text-sm text-slate-500 mr-2">Cerah</span>
+        <input type="checkbox" id="beralih" class="hidden">
+        <label for="beralih">
+            <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 bg-white rounded-full beralih-bulat"></div>
+            </div>
+        </label>
+        <span class="text-sm text-slate-500 ml-2">Gelap</span>
+    </div>
+
+
+    <button
+        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter mx-auto block hover:bg-sky-800 active:bg-sky-800 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100">Simpan</button>
+
+
+    <div
+        class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group">
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">Kartu Saya</h5>
+        <p
+            class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloremque, mollitia voluptatem omnis debitis
+            nisi est voluptate voluptatibus vitae nostrum eveniet! Voluptates molestias error aliquam porro quo tempore
+            corporis. Illo?
+        </p>
+    </div>
+
+
+    <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
+        <form action="">
+            <label for="email">
+                <span
+                    class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-red-500 after:ml-0.5">Email</span>
+                <input type="email" placeholder="Masukan Email.." id="email"
+                    class="px-3 py-2 border shadow-md rounded-full w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-600 focus:border-sky-600 invalid:text-pink-700 invalid:focus:ring-red-700 invalid:focus:border-red-700 peer">
+            </label>
+            <p class="text-sm m-1 text-red-700 invisible peer-invalid:visible">Email Tidak Valid !</p>
+        </form>
+    </div>
+
+
+    <hr class="my-20" />
+
+    <div
+        class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:rotate-45 hover:scale-150 hover:bg-pink-500 transition origin-bottom-right">
+    </div>
+
+    <div class="w-40 h-40 mx-auto mt-20 group">
+        <div
+            class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 ease-in-out delay-1000">
+        </div>
+    </div>
+
+    <div class="w-40 h-40 bg-pink-600 mx-auto rounded-lg shadow-lg  mt-20 animate-spin">
+    </div>
+
+    <div class="mb-96"></div>
+    <script>
+        const cek = document.querySelector('#beralih');
+        const html = document.querySelector('html');
+        cek.addEventListener("click", function () {
+            cek.checked ? html.classList.add("dark") : html.classList.remove("dark");
+        })
+    </script>
+</body>
+
+</html>
