@@ -4,7 +4,7 @@
   <img src="https://github.com/fifovalle/BELAJAR-WEB-DEVELOPER/assets/90078068/f75c010d-e605-4e55-896d-e6fa2bced68c" alt="Stiker Web Developer" width="200">
 </div>
 
-Selamat datang di **Portofolio Web Developer** milik saya! Di sini, saya membagikan perjalanan dan hasil pembelajaran saya dalam dunia pengembangan web. Dari merancang tampilan hingga menghidupkan ide menjadi kode, saya menjelajahi berbagai teknologi termasuk HTML, CSS, JavaScript, SASS, React, Bootstrap, dan Next.js.
+Selamat datang di **Portofolio Web Developer** milik saya! Di sini, saya membagikan perjalanan dan hasil pembelajaran saya dalam dunia pengembangan web. Dari merancang tampilan hingga menghidupkan ide menjadi kode, saya menjelajahi berbagai teknologi termasuk HTML, CSS, JavaScript, SASS, React, Bootstrap, Tailwind CSS, dan Next.js.
 
 ## Tentang Saya 👨‍💻
 
@@ -13,7 +13,7 @@ Saya adalah seorang pecinta kode dan pembelajar berkelanjutan di bidang pengemba
 ## Kemampuan Teknis 🛠️
 
 - **Bahasa Pemrograman:** HTML, CSS, JavaScript
-- **Pustaka & Framework:** React, Bootstrap
+- **Pustaka & Framework:** React, Bootstrap, Tailwind CSS
 - **Pengprsesan Praprosesan:** SASS
 - **Alat Pengembangan:** Visual Studio Code, Git
 - **Pengalaman dengan Server-side:** Next.js
