@@ -13,7 +13,7 @@ Saya adalah seorang pecinta kode dan pembelajar berkelanjutan di bidang pengemba
 ## Kemampuan Teknis 🛠️
 
 - **Bahasa Pemrograman:** HTML, CSS, JavaScript
-- **Pustaka & Framework:** React, Bootstrap, Tailwind CSS
+- **Pustaka & Framework:** React, Bootstrap, Tailwind CSS, Three.js
 - **Pengprsesan Praprosesan:** SASS
 - **Alat Pengembangan:** Visual Studio Code, Git
 - **Pengalaman dengan Server-side:** Next.js
