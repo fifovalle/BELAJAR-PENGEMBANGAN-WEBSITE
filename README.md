@@ -1,14 +1,14 @@
-# Portofolio Web Development 🚀
+# Portofolio Pengembangan Website 🚀
 
 <div align="center">
   <img src="https://github.com/fifovalle/BELAJAR-WEB-DEVELOPER/assets/90078068/f75c010d-e605-4e55-896d-e6fa2bced68c" alt="Stiker Web Developer" width="200">
 </div>
 
-Selamat datang di **Portofolio Web Developer** milik saya! Di sini, saya membagikan perjalanan dan hasil pembelajaran saya dalam dunia pengembangan web. Dari merancang tampilan hingga menghidupkan ide menjadi kode, saya menjelajahi berbagai teknologi termasuk HTML, CSS, JavaScript, SASS, React, Bootstrap, Tailwind CSS, dan Next.js.
+Selamat datang di **Portofolio Pengembangan Website** saya! Saya sangat antusias untuk berbagi perjalanan pembelajaran saya dalam dunia pengembangan web. Dari desain hingga implementasi, saya terlibat dalam berbagai teknologi termasuk HTML, CSS, JavaScript, SASS, React, Bootstrap, Tailwind CSS, dan Next.js.
 
 ## Tentang Saya 👨‍💻
 
-Saya adalah seorang pecinta kode dan pembelajar berkelanjutan di bidang pengembangan web. Dedikasi saya terhadap desain yang menarik dan pengalaman pengguna yang luar biasa mendorong saya untuk terus mengasah keterampilan dan pengetahuan saya dalam menciptakan solusi web yang inovatif.
+Saya adalah seorang pengembang web yang penuh semangat dan pembelajar yang tak kenal lelah di bidang teknologi. Keinginan saya untuk menciptakan desain yang menarik dan pengalaman pengguna yang optimal mendorong saya untuk terus meningkatkan keterampilan saya dalam menciptakan solusi web yang inovatif.
 
 ## Kemampuan Teknis 🛠️
 
@@ -28,7 +28,7 @@ Saya adalah seorang pecinta kode dan pembelajar berkelanjutan di bidang pengemba
 
 Saya senang berinteraksi dan terhubung dengan sesama pengembang dan individu kreatif lainnya. Jika Anda ingin berdiskusi, bekerja sama, atau sekadar berkenalan, jangan ragu untuk menghubungi saya melalui [email](mailto:fifanaufal10@gmail.com) atau melalui [Whatsapp](https://wa.me/+6281223652490).
 
-Terima kasih telah mengunjungi portofolio saya! Mari kita ciptakan web yang menakjubkan bersama-sama. 🌟
+Terima kasih telah mengunjungi portofolio saya! Mari kita bersama-sama menciptakan web yang memukau. 🌟
 
 <div align="center">
   &copy; 2023 Naufal FIFA
